@@ -1,8 +1,8 @@
 import mysql.connector
 connection = mysql.connector.connect(host='localhost',
                                      database='python_mysql_class',
-                                     user='dba',
-                                     password='dbaMySQL80')
+                                     user='xxx',
+                                     password='xxxxxxx')
 my_cursor = connection.cursor()
 insert_commit = "INSERT INTO drink VALUES (%s, %s, %s, %s, %s, %s)"
 data = ('DR0005', '西瓜汁', None, 'TW', 70, '飲品')
